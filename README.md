@@ -16,8 +16,8 @@
 ## 界面预览
 
 [ISO2GOD Web 界面](https://github.com/user-attachments/assets/4bca0fa3-c949-4623-b538-a075c59df45d)
-(https://github.com/user-attachments/assets/ad528f71-8738-4ca6-94aa-61afcf70ea00)
-(https://github.com/user-attachments/assets/017438e9-cefe-43ca-b619-ea250bcb7bd6)
+[DSM filestation 界面](https://github.com/user-attachments/assets/ad528f71-8738-4ca6-94aa-61afcf70ea00)
+[xbox360通过ftp连群晖界面](https://github.com/user-attachments/assets/017438e9-cefe-43ca-b619-ea250bcb7bd6)
 
 
 
