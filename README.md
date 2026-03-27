@@ -1,6 +1,6 @@
 # ISO2GOD Web - Xbox 360 ISO 转 GOD 工具
 
-专为群晖 NAS 设计的 Xbox 360 ISO 转 GOD 格式转换工具，提供 Web 界面操作。
+专为群晖 NAS 设计的 Xbox 360 ISO 转 GOD 格式转换工具，提供 Web 界面操作。本工具纯扣子编程AI开发，我只动了嘴+SSH群晖调试+上传了github页面。
 
 ## 功能特点
 
