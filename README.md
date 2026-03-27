@@ -1,6 +1,10 @@
 # ISO2GOD Web - Xbox 360 ISO 转 GOD 工具
 
-专为群晖 NAS 设计的 Xbox 360 ISO 转 GOD 格式转换工具，提供 Web 界面操作。本工具纯扣子编程AI开发，我只动了嘴+SSH群晖调试+上传了github页面。
+专为群晖 NAS 设计的 Xbox 360 ISO 转 GOD 格式转换工具，提供 Web 界面操作。
+目前都是直接用群晖迅雷或者虚拟机里飞牛的下载工具去roms网站下载游戏zip包，然后群晖解压缩成iso格式，再通过电脑转换god格式，再传回群晖通过ftp导入到xbox360局域网主机内。
+痛点就是群晖把iso传到电脑，电脑在传回群晖太麻烦了，就直接基于iso2god-rs - Rust弄了一个docker工具，这样全部工作都在群晖上解决了，电脑或者手机只需要点点点就生成了god文件夹，然后一键传入xbox360，省事多啦
+
+本工具纯扣子编程AI开发，我只动了嘴+SSH群晖调试+上传了github页面。所以如有问题，直接把ssh里的错误提示喂给AI就行，他自动帮你诊断怎么回事
 
 ## 功能特点
 
@@ -12,6 +16,9 @@
 ## 界面预览
 
 [ISO2GOD Web 界面](https://github.com/user-attachments/assets/4bca0fa3-c949-4623-b538-a075c59df45d)
+(https://github.com/user-attachments/assets/ad528f71-8738-4ca6-94aa-61afcf70ea00)
+(https://github.com/user-attachments/assets/017438e9-cefe-43ca-b619-ea250bcb7bd6)
+
 
 
 ## 快速安装
