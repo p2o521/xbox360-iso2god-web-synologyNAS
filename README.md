@@ -11,7 +11,7 @@
 
 ## 界面预览
 
-![ISO2GOD Web 界面]![微信截图_20260327113221](https://github.com/user-attachments/assets/4bca0fa3-c949-4623-b538-a075c59df45d)
+[ISO2GOD Web 界面](https://github.com/user-attachments/assets/4bca0fa3-c949-4623-b538-a075c59df45d)
 
 
 ## 快速安装
@@ -46,7 +46,7 @@ docker-compose up -d --build
 修改挂载路径
 编辑 docker-compose.yml，修改 volumes 部分：
 volumes:
-  # 格式: - /你的NAS路径:/data/显示名称（/data/这几个字不要动）
+  # 格式: - /你的NAS路径:/data/显示名称（:/data/这几个字不要动）
   - /volume1/games:/data/volume1
   - /volume2/games:/data/volume2
   - /volume3/下载:/data/volume3
@@ -125,12 +125,12 @@ docker rmi iso2god-web:latest
 cd ..
 rm -rf xbox360-iso2god-web-synologyNAS
 技术栈
-技术	版本	说明
-Next.js	14.2.3	React 框架
-React	18.3.1	UI 库
-Tailwind CSS	3.4.3	CSS 框架
-TypeScript	5.4.5	类型支持
-iso2god-rs	1.8.1	核心转换工具
+技术	       版本	        说明
+Next.js   	  14.2.3	React 框架
+React	        18.3.1	UI 库
+Tailwind CSS	3.4.3	 CSS 框架
+TypeScript	  5.4.5	 类型支持
+iso2god-rs	  1.8.1	 核心转换工具
 致谢
 iso2god-rs - Rust 实现的 ISO 转 GOD 核心工具
 贡献
