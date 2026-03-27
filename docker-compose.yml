@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  iso2god-web:
+    build: .
+    image: iso2god-web:latest
+    ports:
+      - "8080:3000"
+    volumes:
+      # 修改以下挂载路径为你的 NAS 游戏目录
+      - /volume1:/data/volume1
+      - /volume2:/data/volume2
+      - /volume3:/data/volume3
+    environment:
+      - NODE_ENV=production
+    restart: unless-stopped
